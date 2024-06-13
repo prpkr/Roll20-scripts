@@ -21,7 +21,7 @@ on('chat:message', function(message) {
                 if(!hasNightVision) {
                     token.set({
                         has_night_vision: true,
-                        night_vision_distance: 40,
+                        night_vision_distance: 120,
                         night_vision_tint: "#548443",
                         night_vision_effect: 'dimming',
                         has_limit_field_of_night_vision: true,
